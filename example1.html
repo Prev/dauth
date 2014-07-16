@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>예제</title>
+
+		<script type="text/javascript" src="http://developer.dimigo.hs.kr/get/dauth.sdk.js"></script>
+		<script type="text/javascript">
+			function openPopup() {
+				DAuth.login("name,grade,class,number,gender", function (result) {
+					document.getElementById("result").innerHTML = JSON.stringify(result);
+				});
+			}
+		</script>
+	</head>
+	
+	<body>
+		<button class="dauth-login-btn" onclick="openPopup()">디미고 계정으로 로그인</button>
+
+		<div id="result">
+
+		</div>
+	</body>
+</html>
