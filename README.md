@@ -10,3 +10,7 @@ DAuth API는 웹사이트에서 사용자 데이터 요청시 사용자 화면�
 
 다만 Facebook의 Graph API와 달리 애플리케이션별로 관리하지 않으며,
 토큰이 유지되지 않고 사용자가 요청 수락시 일시적으로 데이터를 제공하게 됩니다.
+
+
+
+[예제1 보기](http://prev.github.io/dauth/example1.html)
